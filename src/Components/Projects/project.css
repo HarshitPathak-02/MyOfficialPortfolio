@@ -10,8 +10,11 @@
     background-color: #dccfed;
     padding: 1rem;
     height: 37rem;
-    width: 40rem;
+    width: 27rem;
+    align-items: center;
     border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .project_card:hover {
     margin-top: -0.5rem;
@@ -25,6 +28,7 @@
     width: 6rem;
     padding: 0.5rem;
     padding-left: 1rem;
+    align-self: self-start;
     /* margin-bottom: 1rem; */
 }
 
@@ -47,6 +51,7 @@
 
 .project_card h2 {
     font-size: 2rem;
+    align-self: self-start;
 }
 
 .project_card p {
