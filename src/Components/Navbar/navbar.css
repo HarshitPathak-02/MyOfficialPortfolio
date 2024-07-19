@@ -1,0 +1,46 @@
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background: linear-gradient(101deg, rgba(129, 33, 208, 1) 57%, rgba(41, 28, 58, 1) 74%);
+    padding: 1rem;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    box-shadow: #291c3a 0rem 0rem 0.2rem 0.2rem;
+}
+
+.navbar_left {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.navbar_links {
+    display: flex;
+    gap: 4rem;
+    width: 40%;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_contact-btn {
+    margin-left: -7rem;
+    display: flex;
+    color: #291c3a;
+    background-color: white;
+    padding: 0.5rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.navbar_contact-btn a {
+    text-decoration: none;
+    color: #291c3a;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'neu';
+}
+
+@font-face {
+  font-family: neu;
+  src: url(./Assets/NeueHaasDisplayMediu.ttf);
+}
+
+/* @font-face {
+  font-family: neu;
+  font-weight: 100;
+  src: url(./Assets/NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 200;
+  src: url(./Assets/NeueHaasDisplayRoman.ttf);
+} */
+
+.main {
+  background-color: #e1ebed;
+  /* background-color: antiquewhite; */
+  position: relative;
+  z-index: 10;
+}

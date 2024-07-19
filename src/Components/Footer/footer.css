@@ -1,0 +1,48 @@
+#footers {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #dccfed;
+    /* padding: 1rem; */
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+}
+
+.int-boxes {
+    display: flex;
+    gap: 2rem;
+}
+
+.int-box {
+    border: 0.1rem solid #331c52;
+    border-radius: 1rem;
+    padding: 1rem;
+    /* background-color: #331c52; */
+    color: #331c52;
+}
+
+.int-box:hover {
+    color: white;
+    background-color: #331c52;
+    transition: 0.5s;
+}
+
+.footer-end {
+    bottom: 0;
+    background-color: #331c52;
+    color: white;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    font-size: 1.5rem;
+}

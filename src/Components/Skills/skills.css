@@ -1,0 +1,45 @@
+#skills {
+    min-height: 100vh;
+    padding: 5rem;
+    background-color: #e1ebed;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -7rem;
+    margin-top: -7rem;
+}
+
+.skills_desc {
+    width: 45%;
+}
+
+.skills_boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.skills_boxes1 {
+    display: flex;
+    gap: 2rem;
+}
+
+.skills_boxes2 {
+    display: flex;
+    gap:2rem;
+}
+
+.skills_box {
+    padding: 0.5rem;
+    box-shadow: #dccfed 0rem 0rem 0.5rem 0.1rem;
+    background-color: #291c3a;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.skills_box img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+}

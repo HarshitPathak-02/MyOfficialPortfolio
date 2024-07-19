@@ -1,0 +1,11 @@
+#aboutme {
+    min-height: 100vh;
+    padding: 5rem;
+    background-color: #e1ebed;
+    display: flex;
+}
+
+.aboutme_desc {
+    width: 70%;
+}
+
