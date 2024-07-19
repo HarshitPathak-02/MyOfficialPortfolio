@@ -9,6 +9,8 @@ import Gft from '../../Assets/gift.png'
 import Tdo from '../../Assets/todo.png'
 import Tmprtre from '../../Assets/temperature.png'
 import Trbte from '../../Assets/tribute.png'
+import anmntd from '../../Assets/animated.png'
+import figma from '../../Assets/figma.png'
 
 const Projects = () => {
   return (
@@ -108,6 +110,24 @@ const Projects = () => {
                     <p>This is a temperature converter web app in which you can convert the different temperature degrees into celcius, farehnite and kelvin. It is made with HTML, CSS, JavaScript.</p>
                     <br />
                     <h3><a href="https://temperature-convertor-xi.vercel.app/">Visit site</a></h3>
+                </div>
+                <div className="project_card">
+                    <img src={anmntd} alt="" />
+                    <br /><br />
+                    <h2>Animated Website</h2>
+                    <br />
+                    <p>This is an animated website in which you can enjoy the smooth user experience with beautiful animations. It is made with HTML, CSS, JavaScript.</p>
+                    <br />
+                    <h3><a href="https://animated-project-delta.vercel.app/">Visit site</a></h3>
+                </div>
+                <div className="project_card">
+                    <img src={figma} alt="" />
+                    <br /><br />
+                    <h2>Figma Converted Website</h2>
+                    <br />
+                    <p>This website is converted from a figma design. It is a Figma project and it is made with React.</p>
+                    <br />
+                    <h3><a href="https://figma-converted-xi.vercel.app/">Visit site</a></h3>
                 </div>
             </div>
         </div>
