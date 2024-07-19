@@ -58,12 +58,12 @@
     flex-direction: column;
 }
 
-.project_cards1 {
+.project_cards1, .project_cards2, .project_cards3, .project_cards4 {
     display: flex;
     gap: 2rem;
 }
 
-.project_cards2 {
+/* .project_cards2 {
     display: flex;
     gap: 2rem;
 }
@@ -71,4 +71,4 @@
 .project_cards3 {
     display: flex;
     gap: 2rem;
-}
+} */
