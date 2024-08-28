@@ -79,7 +79,7 @@ const Projects = () => {
                     <br />
                     <p>This is a netflix clone which is made with HTML and CSS.</p>
                     <br />
-                    <h3><a href="https://netflix-homepage-sigma.vercel.app/">Visit site</a></h3>
+                    <h3><a href="https://netflix-clone-web-dev.vercel.app/">Visit site</a></h3>
                 </div>
             </div>
             <br />
