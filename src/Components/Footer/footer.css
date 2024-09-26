@@ -75,7 +75,7 @@
 }
 
 
-@media (max-width:430px){
+@media (max-width:600px){
     #footers #buildh1 {
         font-size: 1.5rem;
     }

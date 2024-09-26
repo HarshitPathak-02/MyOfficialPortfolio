@@ -45,7 +45,7 @@
     color: #291c3a;
 }
 
-@media (max-width:430px) {
+@media (max-width:600px) {
     .navbar {
         height: 8rem;
     }
