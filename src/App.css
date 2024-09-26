@@ -11,6 +11,10 @@ html, body {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: neu;
   src: url(./Assets/NeueHaasDisplayMediu.ttf);
@@ -30,7 +34,5 @@ html, body {
 
 .main {
   background-color: #e1ebed;
-  /* background-color: antiquewhite; */
-  position: relative;
-  z-index: 10;
+
 }

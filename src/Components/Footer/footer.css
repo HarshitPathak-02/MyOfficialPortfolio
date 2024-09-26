@@ -1,15 +1,10 @@
 #footers {
-    position: fixed;
     height: 100vh;
     width: 100%;
     background-color: #dccfed;
-    /* padding: 1rem; */
-    z-index: 9;
-    bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 1rem; */
 }
 
 #buildh1 {
@@ -63,6 +58,7 @@
     align-items: center;
     padding-left: 40%;
     font-size: 2rem;
+    /* position: fixed; */
 }
 
 #contacth1 {
@@ -82,14 +78,11 @@
 @media (max-width:430px){
     #footers #buildh1 {
         font-size: 1.5rem;
-        margin-left: -10rem;
     }
     #footers h3 {
         font-size: 2rem;
-        margin-left: -10rem;
     }
     .int-boxes {
-        margin-left: -10rem;
         gap: 1rem;
     }
     .int-box {
@@ -121,15 +114,12 @@
     #mail_icon {
         height: 3rem;
         width: 3rem;
-        margin-left: -6.5rem;
     }
     #clickh4 {
         font-size: 1rem;
-        margin-left: -10rem;
     }
     #contacth1 {
         font-size: 2rem;
-        margin-left: -10rem;
         margin-top: 1rem;
     }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import "./home.css";
 import { PiHandWavingFill } from "react-icons/pi";
 import Robot from "../../Assets/robit.png";

@@ -23,7 +23,8 @@
 @media (max-width:430px) {
     #aboutme {
         padding: 1rem;
-        overflow-x:hidden ;
+        margin-bottom: -15rem;
+        margin-top: 10rem;
     }
     #aboutme h1 {
         font-size: 4rem;
@@ -35,9 +36,7 @@
         /* white-space: ; */
         width: 23rem;
     }
-    #aboutme {
-        margin-bottom: -25rem;
-    }
+
 }
 
 

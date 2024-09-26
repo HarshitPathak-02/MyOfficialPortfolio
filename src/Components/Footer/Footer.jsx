@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div id='footer'>
-        <div className="page"></div>
+        {/* <div className="page"></div> */}
         <div id="footers">
           <h1 id='buildh1'>Let's build something <span id='cool'>cool</span> together!</h1>
           <h3>I'am interested in ...</h3>
