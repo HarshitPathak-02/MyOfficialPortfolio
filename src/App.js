@@ -5,11 +5,14 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Chart from './Assets/chart.png'
+import Navbar from './Components/Navbar/Navbar';
+
 
 function App() {
   return (
     <div className="App">
       <div className="main">
+        <Navbar/>
         <Home/>
         <About/>
         <Skills/>

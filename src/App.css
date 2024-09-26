@@ -6,6 +6,11 @@
   font-family: 'neu';
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 @font-face {
   font-family: neu;
   src: url(./Assets/NeueHaasDisplayMediu.ttf);

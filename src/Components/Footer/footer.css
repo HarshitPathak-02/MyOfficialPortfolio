@@ -9,9 +9,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* gap: 1rem; */
 }
 
-.page5 {
+#buildh1 {
+    font-size:4rem;
+    color:#291c3a;
+    margin-top:2rem;
+}
+
+#footers h3 {
+    font-size:3rem;
+    color:#291c3a;
+}
+
+#cool {
+    color:#8121d0;
+}
+
+
+.page {
     height: 100vh;
     width: 100%;
 }
@@ -19,6 +36,7 @@
 .int-boxes {
     display: flex;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .int-box {
@@ -40,9 +58,78 @@
     background-color: #331c52;
     color: white;
     width: 100%;
-    height: 10rem;
+    height: 100%;
     display: flex;
     align-items: center;
     padding-left: 40%;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+#contacth1 {
+    font-size:3rem;
+}
+
+#clickh4 {
+    font-size:2rem;
+}
+
+#mail_icon {
+    height:5rem; 
+    width:5rem;
+}
+
+
+@media (max-width:430px){
+    #footers #buildh1 {
+        font-size: 1.5rem;
+        margin-left: -10rem;
+    }
+    #footers h3 {
+        font-size: 2rem;
+        margin-left: -10rem;
+    }
+    .int-boxes {
+        margin-left: -10rem;
+        gap: 1rem;
+    }
+    .int-box {
+        height: 3rem;
+        width: 7rem;
+    }
+    .int-box h4 {
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    #porth4 {
+        margin-left: -0.5rem;
+    }
+    #ecoh4 {
+        font-size: 0.7rem;
+        margin-left: -0.8rem;
+    }
+    .footer-end {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer-end p {
+        font-size: 1.8rem;
+    }
+    #heart_icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    #mail_icon {
+        height: 3rem;
+        width: 3rem;
+        margin-left: -6.5rem;
+    }
+    #clickh4 {
+        font-size: 1rem;
+        margin-left: -10rem;
+    }
+    #contacth1 {
+        font-size: 2rem;
+        margin-left: -10rem;
+        margin-top: 1rem;
+    }
 }

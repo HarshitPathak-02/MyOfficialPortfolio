@@ -6,6 +6,16 @@
     font-family: 'neu';
 }
 
+.proj_desc h1 {
+    font-size:7rem;
+    color:#291c3a;
+}
+
+.proj_desc p {
+    font-size:2rem;
+    color:#331c52;
+}
+
 .project_card {
     background-color: #dccfed;
     padding: 1rem;
@@ -77,3 +87,43 @@
     display: flex;
     gap: 2rem;
 } */
+
+@media (max-width:430px) {
+    #projects{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .proj_desc h1 {
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+    .proj_desc p {
+        font-size: 1.28rem;
+        white-space: nowrap;
+    }
+    .project_cards1, .project_cards2, .project_cards3, .project_cards4 {
+        flex-direction: column;
+    }
+    .project_card {
+        height: 27rem;
+        width: 24rem;
+        border-radius: 1.5rem;
+    }
+    .project_card img {
+        width: 22rem;
+        border-radius: 1.5rem;
+    }
+    .project_card h2 {
+        font-size: 1.8rem;
+    }
+    .project_card p{
+        font-size: 1rem;
+    }
+    .project_card h3 {
+        height:3rem;
+        width:5.5rem;
+    }
+    .project_card {
+        padding: 0.8rem;
+    }
+}

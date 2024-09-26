@@ -12,6 +12,16 @@
     width: 45%;
 }
 
+.skills_desc h1 {
+    font-size:5.5rem;
+    color:#291c3a;
+}
+
+.skills_desc p {
+    font-size:2rem;
+    color:#331c52;
+}
+
 .skills_boxes {
     display: flex;
     flex-direction: column;
@@ -42,4 +52,31 @@
     height: 5rem;
     width: 5rem;
     border-radius: 1rem;
+}
+
+.skills_boxes3, .skills_boxes4 {
+    display: none;
+    gap:2rem;
+}
+
+@media (max-width:430px) {
+    #skills {
+        justify-content: start;
+        padding: 1rem;
+        margin-bottom: -10rem;
+    }
+    .skills_desc h1 {
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+    .skills_desc p {
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+    .skills_boxes3, .skills_boxes4 {
+        display: flex;
+    }
+    .skills_boxes1 #js, #mongo, .skills_boxes2 #py, #java {
+        display: none;
+    }
 }

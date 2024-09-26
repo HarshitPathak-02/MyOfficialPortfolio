@@ -18,7 +18,7 @@ const Navbar = () => {
             <h4><a href="#projects">Projects</a></h4>
         </div>
         <div className="navbar_contact-btn">
-            <h4><RiContactsFill/> <a href="#footer">Contact me</a></h4>
+            <h4><RiContactsFill/><a href="#footer">Contact me</a></h4>
         </div>
 
     </div>

@@ -63,3 +63,33 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media (max-width:430px){
+    .h1 {
+        font-size: 2.8rem;
+        gap: 0.5rem;
+    }
+
+    .h2 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        white-space: nowrap;
+    }
+    .h3 {
+        font-size: 2.5rem;
+    }
+    .home_left {
+        padding: 1rem;
+        margin-bottom: 5rem;
+    }
+    .right-pic {
+        display: none;
+    }
+    .home_bottom {
+        flex-direction: column;
+        margin-left: -3rem;
+    }
+    #home {
+        margin-bottom: -8rem;
+    }
+}

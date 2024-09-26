@@ -7,9 +7,6 @@ import Robot from "../../Assets/robit.png";
 const Home = () => {
   return (
     <div id="home">
-      <div className="home_navbar">
-        <Navbar />
-      </div>
       <div className="home-main">
         <div className="home_left">
           <div className="h1">
@@ -17,7 +14,7 @@ const Home = () => {
             <PiHandWavingFill style={{ color: "orange" }} />
           </div>
           <div className="h2">
-            I'm a Full Stack <br />
+            I'm a Full Stack <br/>
             Web Developer
           </div>
           <br />

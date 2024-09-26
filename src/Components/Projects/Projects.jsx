@@ -16,9 +16,9 @@ const Projects = () => {
   return (
     <div id='projects'>
         <div className="proj_desc">
-            <h1 style={{fontSize:'7rem',color:'#291c3a'}}>My Projects</h1>
+            <h1>My Projects</h1>
             <br />
-            <p style={{fontSize:'2rem',color:'#331c52'}}>Below are my projects, take a look at them!</p>
+            <p>Below are my projects, take a look at them!</p>
         </div>
         <br /><br />
         <div className="projects_cards">

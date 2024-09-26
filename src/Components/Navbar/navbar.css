@@ -44,3 +44,12 @@
     text-decoration: none;
     color: #291c3a;
 }
+
+@media (max-width:430px) {
+    .navbar {
+        height: 8rem;
+    }
+    .navbar_left {
+        margin-left: 0rem;
+    }
+}

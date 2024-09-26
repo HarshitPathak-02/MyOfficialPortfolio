@@ -5,7 +5,39 @@
     display: flex;
 }
 
+#aboutme h1 {
+    font-size:6.5rem;
+    color: #291c3a;
+}
+
+#aboutme p {
+    font-size:1.7rem;
+    color:#331c52;
+    line-height:2.5rem;
+}
+
 .aboutme_desc {
     width: 70%;
 }
+
+@media (max-width:430px) {
+    #aboutme {
+        padding: 1rem;
+        overflow-x:hidden ;
+    }
+    #aboutme h1 {
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+    #aboutme p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        /* white-space: ; */
+        width: 23rem;
+    }
+    #aboutme {
+        margin-bottom: -25rem;
+    }
+}
+
 
