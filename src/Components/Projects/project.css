@@ -91,33 +91,32 @@
 @media (max-width:600px) {
     #projects{
         padding: 1rem;
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
     .proj_desc h1 {
-        font-size: 4rem;
+        font-size: 3.7rem;
         white-space: nowrap;
     }
     .proj_desc p {
-        font-size: 1.28rem;
-        white-space: nowrap;
+        font-size: 1.5rem;
     }
     .project_cards1, .project_cards2, .project_cards3, .project_cards4 {
         flex-direction: column;
     }
     .project_card {
-        height: 27rem;
-        width: 24rem;
-        border-radius: 1.5rem;
+        height: 30rem;
+        width: 20rem;
+        border-radius: 1.2rem;
     }
     .project_card img {
-        width: 22rem;
+        width: 18rem;
         border-radius: 1.5rem;
     }
     .project_card h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .project_card p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .project_card h3 {
         height:3rem;

@@ -6,17 +6,17 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Chart from './Assets/chart.png'
 import Navbar from './Components/Navbar/Navbar';
-
+import Menu from './Components/Menu/menu'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <div className="main">
+        <Menu/>
         <Home/>
         <About/>
         <Skills/>
-        <img src={Chart} alt="" style={{width:'100%'}}/>
         <Projects/>
       </div>
       <Footer/>

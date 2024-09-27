@@ -1,0 +1,35 @@
+.menu_container {
+    height: 15rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(117deg, rgba(51, 28, 82, 0.7) 68%, rgba(41, 28, 58, 0.7) 74%);
+    position: absolute;
+    backdrop-filter: blur(0.5rem);
+    opacity: 0;
+
+}
+
+#skills_head, #projects_head, #contact_head {
+    display: flex;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background: linear-gradient(117deg, rgba(51, 28, 82, 1) 68%, rgba(41, 28, 58, 1) 74%);
+}
+
+#skills_head a, #projects_head a, #contact_head a {
+    text-decoration: none;
+    color: white;
+}
+#skills_head h2, #projects_head h2, #contact_head h2 {
+    font-size: 1.5rem;
+}
+
+#skills_head:hover, #projects_head:hover, #contact_head:hover {
+    box-shadow: 0.1rem 0.1rem 1rem 0.4rem #dccfed;
+}

@@ -6,6 +6,7 @@
 
 .home-main {
     display: flex;
+    justify-content: space-between;
 }
 
 .home_left {
@@ -15,12 +16,13 @@
 }
 
 .right-pic img {
-    z-index: 99;
-    height: 40rem;
-    width: 40rem;
-   margin-bottom: 3rem;
-    margin-top: -5rem;
-    margin-left: 5rem;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.4rem #dccfed;
 }
 
 .h1 {
@@ -66,24 +68,34 @@
 
 @media (max-width:600px){
     .h1 {
-        font-size: 2.8rem;
+        font-size: 2rem;
         gap: 0.5rem;
     }
 
     .h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 3.5rem;
         white-space: nowrap;
     }
     .h3 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .home_left {
         padding: 1rem;
         margin-bottom: 5rem;
     }
+    .right-pic img {
+        width: 100%;
+        height: 100%;
+        margin-top: -5rem;
+        margin-bottom: 4rem;
+        box-shadow: 0.05rem 0.05rem 0.5rem 0.2rem #dccfed;
+    }
     .right-pic {
-        display: none;
+        padding: 1rem;
+    }
+    .home-main {
+        flex-direction: column;
     }
     .home_bottom {
         flex-direction: column;

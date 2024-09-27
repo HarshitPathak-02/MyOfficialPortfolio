@@ -6,10 +6,9 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div id='footer'>
-        {/* <div className="page"></div> */}
         <div id="footers">
           <h1 id='buildh1'>Let's build something <span id='cool'>cool</span> together!</h1>
-          <h3>I'am interested in ...</h3>
+          <h3>I can help you with ...</h3>
           <div className="int-boxes">
             <div className="int-box" id='ecocard'>
               <h4 id='ecoh4'>Ecommerce Website</h4>

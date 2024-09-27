@@ -34,5 +34,10 @@ body {
 
 .main {
   background-color: #e1ebed;
+  overflow-x: hidden;
 
+}
+
+.App {
+  overflow-x: hidden;
 }

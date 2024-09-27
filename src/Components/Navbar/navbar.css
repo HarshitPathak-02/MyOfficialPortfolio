@@ -1,12 +1,24 @@
 .navbar {
-    height: 5rem;
+    height: 8rem;
     width: 100%;
     background: linear-gradient(101deg, rgba(129, 33, 208, 1) 57%, rgba(41, 28, 58, 1) 74%);
     padding: 1rem;
+    z-index: 9;
     display: flex;
-    justify-content:left;
+    justify-content:space-between;
     align-items: center;
     box-shadow: #291c3a 0rem 0rem 0.2rem 0.2rem;
+}
+
+#pic {
+    height:7rem;
+    width:7rem; 
+    border-radius: 50%;
+}
+
+#hp {
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .navbar_left {
@@ -14,35 +26,50 @@
     justify-content: space-between;
     width: 20%;
     align-items: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 .navbar_links {
     display: flex;
     gap: 4rem;
-    width: 40%;
+    width: 50%;
     align-items: center;
-    margin-left: 7rem;
 }
 
 .navbar_links a {
     text-decoration: none;
     color: white;
+    font-size: 1.3rem;
 }
 
 .navbar_contact-btn {
-    margin-left: -7rem;
-    display: flex;
     color: #291c3a;
     background-color: white;
     padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
+
 }
 
 .navbar_contact-btn a {
     text-decoration: none;
+    white-space: nowrap;
     color: #291c3a;
+}
+
+#menu {
+    height: 1.7rem;
+    width: 1.7rem;
+    display: none;
+}
+
+#close {
+    display: none;
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-left: -2.3rem;
 }
 
 @media (max-width:600px) {
@@ -51,5 +78,20 @@
     }
     .navbar_left {
         margin-left: 0rem;
+    }
+    .navbar_links, .navbar_contact-btn {
+        display: none;
+    }
+    #hp {
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+    #menu {
+        display: block;
+        margin-left: 13rem;
+    }
+    #pic {
+        height: 5rem;
+        width: 5rem;
     }
 }

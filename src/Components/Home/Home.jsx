@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css";
+import Logo from "../../Assets/logo.avif"
+import LandingPhoto from "../../Assets/webPro.jpg" 
 import { PiHandWavingFill } from "react-icons/pi";
-import Robot from "../../Assets/robit.png";
-
 const Home = () => {
   return (
     <div id="home">
@@ -14,13 +14,13 @@ const Home = () => {
           </div>
           <div className="h2">
             I'm a Full Stack <br/>
-            Web Developer
+            Engineer
           </div>
           <br />
-          <div className="h3">I build things for web</div>
+          <div className="h3">I build whatever comes in front ...</div>
         </div>
         <div className="right-pic">
-          <img src={Robot} alt=""/>
+          <img src={LandingPhoto} alt=""/>
         </div>
       </div>
       <div className="home_bottom">

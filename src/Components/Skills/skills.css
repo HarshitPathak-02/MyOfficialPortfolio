@@ -3,13 +3,21 @@
     padding: 5rem;
     background-color: #e1ebed;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    /* justify-content: end; */
     margin-bottom: -7rem;
     margin-top: -7rem;
+    gap: 1rem;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: end;
 }
 
 .skills_desc {
     width: 45%;
+    margin-bottom: 2rem;
 }
 
 .skills_desc h1 {
@@ -62,16 +70,28 @@
 @media (max-width:600px) {
     #skills {
         justify-content: start;
+        margin-top: 0rem;
         padding: 1rem;
-        margin-bottom: -1rem;
+        gap: 0rem;
     }
     .skills_desc h1 {
         font-size: 4rem;
         white-space: nowrap;
     }
     .skills_desc p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         white-space: nowrap;
+    }
+    .skills_box {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    .skills_box img {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    .skills_container {
+        justify-content: start;
     }
     .skills_boxes3, .skills_boxes4 {
         display: flex;

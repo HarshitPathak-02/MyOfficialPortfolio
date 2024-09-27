@@ -69,6 +69,11 @@
     font-size:2rem;
 }
 
+#heart_icon {
+    width: 2rem;
+    height: 2rem;
+}
+
 #mail_icon {
     height:5rem; 
     width:5rem;
@@ -77,13 +82,14 @@
 
 @media (max-width:600px){
     #footers #buildh1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        white-space: nowrap;
     }
     #footers h3 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .int-boxes {
-        gap: 1rem;
+        gap: 0.3rem;
     }
     .int-box {
         height: 3rem;
@@ -105,18 +111,19 @@
         padding-right: 1rem;
     }
     .footer-end p {
-        font-size: 1.8rem;
+        font-size: 1.58rem;
+        white-space: nowrap;
     }
     #heart_icon {
-        height: 1.5rem;
-        width: 1.5rem;
+        height: 1.4rem;
+        width: 1.4rem;
     }
     #mail_icon {
         height: 3rem;
         width: 3rem;
     }
     #clickh4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #contacth1 {
         font-size: 2rem;

@@ -107,7 +107,7 @@ const Projects = () => {
                     <br /><br />
                     <h2>Temperature Converter</h2>
                     <br />
-                    <p>This is a temperature converter web app in which you can convert the different temperature degrees into celcius, farehnite and kelvin. It is made with HTML, CSS, JavaScript.</p>
+                    <p>A temperature converter web app in which you can convert the different temperature degrees into celcius, farehnite and kelvin. It is made with HTML, CSS, JavaScript.</p>
                     <br />
                     <h3><a href="https://temperature-convertor-xi.vercel.app/">Visit site</a></h3>
                 </div>
