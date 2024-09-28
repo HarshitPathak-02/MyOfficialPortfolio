@@ -30,7 +30,7 @@ const Navbar = () => {
       })
       gsap.to("#close",{
         display:"block",
-        duration:0.2
+        duration:0.2,
       })
       tl.play()
     })

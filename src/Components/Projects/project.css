@@ -28,9 +28,8 @@
 }
 
 .project_card:hover {
-    scale: 1.1;
+    box-shadow: 0.08rem 0.08rem 1rem 0.5rem #291c3a ;
     transition: 0.5s;
-    margin: 2rem;
 }
 
 .project_card h3 {
@@ -107,12 +106,12 @@
     }
     .project_card {
         height: 30rem;
-        width: 20rem;
+        width: 100%;
         border-radius: 1.2rem;
         padding: 0.8rem;
     }
     .project_card img {
-        width: 18rem;
+        width: calc(100% - 1rem);
         border-radius: 1.5rem;
     }
     .project_card h2 {

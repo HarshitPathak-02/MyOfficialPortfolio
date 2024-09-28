@@ -32,7 +32,9 @@
     #aboutme p {
         font-size: 1.2rem;
         line-height: 1.5rem;
-        width: 20rem;
+    }
+    .aboutme_desc {
+        width: 100%;
     }
 
 }

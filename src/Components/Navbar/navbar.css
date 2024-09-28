@@ -75,6 +75,7 @@
 @media (max-width:600px) {
     .navbar {
         height: 8rem;
+        justify-content: space-between;
     }
     .navbar_left {
         margin-left: 0rem;
@@ -88,7 +89,7 @@
     }
     #menu {
         display: block;
-        margin-left: 13rem;
+        margin-left: 15rem;
     }
     #pic {
         height: 5rem;

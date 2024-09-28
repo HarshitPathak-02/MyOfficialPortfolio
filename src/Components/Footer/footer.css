@@ -78,12 +78,17 @@
 
 
 @media (max-width:600px){
+    #footers {
+        text-align: center;
+    }
     #footers #buildh1 {
         font-size: 1.3rem;
         white-space: nowrap;
+        width: 100%;
     }
     #footers h3 {
         font-size: 1.7rem;
+        width: 100%;
     }
     .int-boxes {
         gap: 0.3rem;
