@@ -67,6 +67,13 @@
     gap:2rem;
 }
 
+.px540 {
+    display: none;
+}
+.skills_boxes3540 {
+    display: none;
+}
+
 @media (max-width:600px) {
     #skills {
         justify-content: start;

@@ -107,6 +107,7 @@
         height: 30rem;
         width: 20rem;
         border-radius: 1.2rem;
+        padding: 0.8rem;
     }
     .project_card img {
         width: 18rem;
@@ -121,8 +122,5 @@
     .project_card h3 {
         height:3rem;
         width:5.5rem;
-    }
-    .project_card {
-        padding: 0.8rem;
     }
 }

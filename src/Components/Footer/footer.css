@@ -38,7 +38,10 @@
     border: 0.1rem solid #331c52;
     border-radius: 1rem;
     padding: 1rem;
-    /* background-color: #331c52; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     color: #331c52;
 }
 
@@ -99,19 +102,15 @@
         font-size: 0.8rem;
         white-space: nowrap;
     }
-    #porth4 {
-        margin-left: -0.5rem;
-    }
     #ecoh4 {
-        font-size: 0.7rem;
-        margin-left: -0.8rem;
+        font-size: 0.73rem;
     }
     .footer-end {
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: 1%;
     }
     .footer-end p {
-        font-size: 1.58rem;
+        font-size: 1.6rem;
         white-space: nowrap;
     }
     #heart_icon {

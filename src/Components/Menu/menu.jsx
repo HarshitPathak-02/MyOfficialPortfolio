@@ -2,12 +2,10 @@ import React from 'react'
 import './menu.css'
 import { AiOutlineClose } from 'react-icons/ai'
 
-const menu = () => {
+
+const Menu = () => {
   return (
     <div className='menu_container'>
-      {/* <div className="close">
-        <h4 style={{color:'white'}} className='close_h4'><AiOutlineClose id='close'/></h4>
-      </div> */}
       <div id='skills_head'>
         <a href="#skills"><h2>Skills</h2></a>
       </div>
@@ -21,4 +19,5 @@ const menu = () => {
   )
 }
 
-export default menu
+
+export default Menu

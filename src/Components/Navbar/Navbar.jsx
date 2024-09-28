@@ -13,11 +13,14 @@ const Navbar = () => {
   useGSAP(()=>{
     let menu = document.querySelector('#menu')
     let close = document.querySelector("#close")
+  
     let tl = gsap.timeline()
+
     tl.to('.menu_container',{
       opacity:1,
       duration:0.5
     })
+    
     tl.pause()
     
     menu.addEventListener("click",()=>{

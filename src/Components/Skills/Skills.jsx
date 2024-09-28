@@ -79,7 +79,11 @@ const Skills = () => {
         </div>
       </div>
       <div>
-          <img src={Chart} alt="" style={{width:'100rem', marginLeft:'-5rem'}}/>
+        <img
+          src={Chart}
+          alt=""
+          style={{ width: "100rem", marginLeft: "-5rem" }}
+        />
       </div>
     </div>
   );
