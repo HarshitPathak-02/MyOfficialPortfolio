@@ -148,7 +148,7 @@ const Projects = () => {
                 <div className="project_card">
                     <img src={Gft} alt="" />
                     <br /><br />
-                    <h2>Goft Suggestion AI</h2>
+                    <h2>Gift Suggestion AI</h2>
                     <br />
                     <p>This is a gift suggestion webpage in which you will get gift suggestions based on your preferences. It is made with HTML, CSS, API integration.</p>
                     <br />
