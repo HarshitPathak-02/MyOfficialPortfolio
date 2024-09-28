@@ -26,9 +26,11 @@
     display: flex;
     flex-direction: column;
 }
+
 .project_card:hover {
-    margin-top: -0.5rem;
-    transition: 0.2s;
+    scale: 1.1;
+    transition: 0.5s;
+    margin: 2rem;
 }
 
 .project_card h3 {

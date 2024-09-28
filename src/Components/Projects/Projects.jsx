@@ -11,8 +11,69 @@ import Tmprtre from '../../Assets/temperature.png'
 import Trbte from '../../Assets/tribute.png'
 import anmntd from '../../Assets/animated.png'
 import figma from '../../Assets/figma.png'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 
 const Projects = () => {
+
+    useGSAP(()=>{
+        gsap.fromTo('.proj_desc h1, .proj_desc p',{y:50, opacity:0},{
+            y:0,
+            opacity:1,
+            delay:0.2,
+            duration:0.8,
+            stagger:0.3,
+            scrollTrigger:"#projects"
+        })
+
+        gsap.fromTo(".project_cards1 .project_card",{
+            opacity:0,
+            scale:0.5
+        }, {
+            scale:1,
+            opacity:1,
+            duration:0.7,
+            stagger:0.3,
+            scrollTrigger:".project_cards1"
+        })
+        gsap.fromTo(".project_cards2 .project_card",{
+            opacity:0,
+            scale:0.5
+        }, {
+            scale:1,
+            opacity:1,
+            duration:0.7,
+            stagger:0.3,
+            // delay:0.5,
+            scrollTrigger:".project_cards2"
+        })
+        gsap.fromTo(".project_cards3 .project_card",{
+            opacity:0,
+            scale:0.5
+        }, {
+            scale:1,
+            opacity:1,
+            duration:0.7,
+            // delay:0.5,
+            stagger:0.3,
+            scrollTrigger:".project_cards3"
+        })
+        gsap.fromTo(".project_cards4 .project_card",{
+            opacity:0,
+            scale:0.5
+        }, {
+            scale:1,
+            opacity:1,
+            duration:0.7,
+            stagger:0.3,
+            // delay:0.5,
+            scrollTrigger:".project_cards4"
+        })
+    })
+
+
   return (
     <div id='projects'>
         <div className="proj_desc">

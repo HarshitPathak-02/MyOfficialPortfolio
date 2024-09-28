@@ -2,8 +2,31 @@ import React from 'react'
 import './footer.css'
 import { FaHeart } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react';
+import ScrollTrigger from "gsap/ScrollTrigger"
+gsap.registerPlugin(ScrollTrigger)
+
 
 const Footer = () => {
+
+  useGSAP(()=>{
+    gsap.fromTo(".int-box",{opacity:0,scale:0.2},{
+      scale:1,
+      opacity:1,
+      duration:0.5,
+      stagger:0.2,
+      scrollTrigger:"#buildh1"
+    })
+    gsap.fromTo(".footer-end p",{opacity:0,scale:0.3},{
+      opacity:1,
+      scale:1,
+      duration:0.7,
+      scrollTrigger:".footer-end"
+    })
+  })
+
+
   return (
     <div id='footer'>
         <div id="footers">

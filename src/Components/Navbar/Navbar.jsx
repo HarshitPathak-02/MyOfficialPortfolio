@@ -20,7 +20,7 @@ const Navbar = () => {
       opacity:1,
       duration:0.5
     })
-    
+
     tl.pause()
     
     menu.addEventListener("click",()=>{
@@ -46,6 +46,14 @@ const Navbar = () => {
       })
       tl.reverse()
     })
+
+    gsap.from('.navbar_left img, .navbar_left h1, .navbar_links h4',{
+      y:-50,
+      opacity:0,
+      duration:0.5,
+      stagger:0.2
+    })
+
   })
 
   return (

@@ -1,6 +1,23 @@
 import React from 'react'
 import './about.css'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import {ScrollTrigger} from "gsap/ScrollTrigger"
+gsap.registerPlugin(ScrollTrigger);
 const About = () => {
+
+  useGSAP(()=>{
+    gsap.fromTo(".aboutme_desc h1, .aboutme_desc p",{x:-100,opacity:0},{
+      x:0,
+      opacity:1,
+      duration:0.5, 
+      stagger:0.5, 
+      delay:0.1,
+      scrollTrigger: '#aboutme'
+    })
+  })
+
+
   return (
     <div id='aboutme'>
         <div className="aboutme_desc">

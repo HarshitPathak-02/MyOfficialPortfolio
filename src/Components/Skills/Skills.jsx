@@ -11,8 +11,43 @@ import Ja from "../../Assets/java.png";
 import Mongo from "../../Assets/mongo.png";
 import JS from "../../Assets/js.png";
 import Chart from "../../Assets/chart.png";
+import gsap from 'gsap'
+import { useGSAP } from "@gsap/react";
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Skills = () => {
+
+  useGSAP(()=>{
+    gsap.fromTo(".skills_desc h1, .skills_desc p",{
+      opacity:0,
+      scale:0.5,
+    },{
+      opacity:1,
+      scale:1,
+      duration:1,
+      delay:0.1,
+      scrollTrigger: ".skills_container"
+    })
+
+    gsap.fromTo(".skills_box", {x:1000,opacity:0},{
+      opacity:1,
+      x:0,
+      duration:0.7,
+      stagger:0.1,
+      scrollTrigger: ".skills_container"
+    })
+
+    gsap.fromTo(".chart",{opacity:0,scale:0.5},{
+      scale:1,
+      opacity:1,
+      duration:0.7,
+      scrollTrigger:".chart"
+    })
+  })
+
+
   return (
     <div id="skills">
       <div className="skills_container">
@@ -80,6 +115,7 @@ const Skills = () => {
       </div>
       <div>
         <img
+          class = "chart"
           src={Chart}
           alt=""
           style={{ width: "100rem", marginLeft: "-5rem" }}

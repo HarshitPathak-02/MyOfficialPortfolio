@@ -6,7 +6,7 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Chart from './Assets/chart.png'
 import Navbar from './Components/Navbar/Navbar';
-import Menu from './Components/Menu/Menu'
+import Menu from './Components/Menu/menu'
 
 function App() {
   return (
