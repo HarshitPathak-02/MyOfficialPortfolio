@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import gsap from 'gsap'
 import { useGSAP } from "@gsap/react";
-import Logo from "../../Assets/logo.avif"
 import LandingPhoto from "../../Assets/webPro.jpg" 
 import { PiHandWavingFill } from "react-icons/pi";
 const Home = () => {
@@ -50,13 +49,13 @@ const Home = () => {
       </div>
       <div className="home_bottom">
         <div className="exp">
-          <h1 style={{ color: "white", fontSize: "5.5rem" }}>1.5</h1>
+          <h1 style={{ color: "white", fontSize: "5.5rem" }}>1</h1>
           <h5 style={{ color: "#dccfed", fontSize: "1.7rem" }}>
             YEARS OF <br /> EXPERIENCE
           </h5>
         </div>
         <div className="proj">
-          <h1 style={{ color: "white", fontSize: "5.5rem" }}>12</h1>
+          <h1 style={{ color: "white", fontSize: "5.5rem" }}>5</h1>
           <h5 style={{ color: "#dccfed", fontSize: "1.7rem" }}>
             PROJECTS COMPLETED <br /> AROUND THE WORLD
           </h5>
