@@ -4,7 +4,6 @@
     background-color: #e1ebed;
     display: flex;
     flex-direction: column;
-    /* justify-content: end; */
     margin-bottom: -7rem;
     margin-top: -7rem;
     gap: 1rem;
@@ -21,30 +20,19 @@
 }
 
 .skills_desc h1 {
-    font-size:5.5rem;
-    color:#291c3a;
+    font-size: 5.5rem;
+    color: #291c3a;
 }
 
 .skills_desc p {
-    font-size:2rem;
-    color:#331c52;
+    font-size: 2rem;
+    color: #331c52;
 }
 
 .skills_boxes {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-
-}
-
-.skills_boxes1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 6rem);
     gap: 2rem;
-}
-
-.skills_boxes2 {
-    display: flex;
-    gap:2rem;
 }
 
 .skills_box {
@@ -54,56 +42,72 @@
     height: 6rem;
     width: 6rem;
     border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.2s ease;
 }
 
-.skills_box img{
+.skills_box:hover {
+    transform: translateY(-5px);
+}
+
+.skills_box img {
     height: 5rem;
     width: 5rem;
     border-radius: 1rem;
+    object-fit: contain;
 }
 
-.skills_boxes3, .skills_boxes4 {
-    display: none;
-    gap:2rem;
+.skills_text {
+    color: #e1ebed;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
 }
 
-.px540 {
-    display: none;
-}
-.skills_boxes3540 {
-    display: none;
-}
+@media (max-width: 600px) {
 
-@media (max-width:600px) {
     #skills {
         justify-content: start;
         margin-top: 0rem;
         padding: 1rem;
         gap: 0rem;
     }
+
     .skills_desc h1 {
         font-size: 4rem;
         white-space: nowrap;
     }
+
     .skills_desc p {
         font-size: 1.3rem;
         white-space: nowrap;
     }
+
+    .skills_container {
+        justify-content: start;
+    }
+
+    .skills_boxes {
+        grid-template-columns: repeat(3, 5.5rem);
+        gap: 1.5rem;
+    }
+
     .skills_box {
         width: 5.5rem;
         height: 5.5rem;
     }
+
     .skills_box img {
         height: 4.5rem;
         width: 4.5rem;
     }
-    .skills_container {
-        justify-content: start;
-    }
-    .skills_boxes3, .skills_boxes4 {
-        display: flex;
-    }
-    .skills_boxes1 #js, #mongo, .skills_boxes2 #py, #java {
-        display: none;
+
+    .skills_text {
+        font-size: 0.85rem;
     }
 }

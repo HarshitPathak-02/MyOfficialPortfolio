@@ -17,13 +17,24 @@ const About = () => {
     })
   })
 
-
   return (
     <div id='aboutme'>
         <div className="aboutme_desc">
             <h1>About me</h1>
             <br />
-            <p>Hey there! 👋 I'm Harshit Pathak, a dynamic and creative software engineer with a keen eye for design and a love for crafting seamless user experiences. My journey into the world of coding started 4 years ago, and since then, I've been on a mission to turn ideas into interactive, pixel-perfect websites. I thrive on staying ahead of the curve in the ever-evolving tech landscape. Proficient in a variety of languages and frameworks, including HTML, CSS, JavaScript, React, Node.js, MongoDB and Express. I'm always eager to tackle new challenges and push the boundaries of what's possible on the web. Beyond just code, I have a deep appreciation for good design. I believe that a beautiful and intuitive interface is just as important as clean and efficient code. Whether it's a sleek portfolio, an e-commerce platform, or a robust web application, I strive to create digital experiences that leave a lasting impression.</p>
+            <p style={{textAlign:"justify"}}>
+Hey there! 👋 I'm Harshit Pathak, a Full Stack Developer passionate about building practical, scalable, and user-focused web applications. I work primarily with JavaScript, TypeScript, React, Node.js, Express, MongoDB, and modern full-stack technologies.
+
+Over the past few years, I've worked on real-world applications across web and mobile development, building features such as authentication, REST APIs, database systems, payment integration, caching, AI-powered functionality, and production-oriented backend architectures. I enjoy understanding how systems work internally and turning complex requirements into clean, maintainable solutions.
+
+One of my recent projects is <strong>CareerSaathi</strong>, an AI-powered career companion designed to help students understand their career goals, identify skill gaps, build personalized technical roadmaps, track progress, and prepare for their careers. I built it with a focus on practical product design, modular architecture, and real-world full-stack development.
+
+Beyond writing code, I care about software architecture, clean code, performance, user experience, and solving problems in a way that makes applications easier to maintain and scale. I'm continuously improving my understanding of data structures, system design, databases, and core computer science while building and refining real-world projects.
+
+I'm always open to challenging problems, meaningful products, and opportunities where I can learn, contribute, and grow as a software engineer.
+
+</p>
+
         </div>
     </div>
   )
